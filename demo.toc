@@ -1,4 +1,0 @@
-\beamer@sectionintoc {1}{Mogrify LSTM}{3}{0}{1}
-\beamer@sectionintoc {2}{Retrospective Reader}{3}{0}{2}
-\beamer@sectionintoc {3}{Generalization through Memorization: Nearest Neighbor Language Models}{3}{0}{3}
-\beamer@sectionintoc {4}{Differentiable Reasoning over a Virtual Knowledge Base}{3}{0}{4}
