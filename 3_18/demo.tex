@@ -22,6 +22,57 @@
 
 \maketoc
 
+
+\section{SBERT-WK}
+
+\begin{frame}{Title}
+    \begin{figure}
+        \begin{center}
+            \shadowbox{\includegraphics[width=0.95\textwidth]{img/SBERT-WK-title}}
+        \end{center}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{SBERT-WK - Motivation}
+    \begin{figure}
+        \begin{center}
+            \shadowbox{\includegraphics[height=0.7\textheight]{img/SBERT-motivation}}
+        \end{center}
+    \end{figure}
+    
+\end{frame}
+
+\begin{frame}{SBERT-WK - Model}
+
+    \begin{figure}
+        \begin{center}
+            \shadowbox{\includegraphics[width=0.8\textwidth]{img/SBERT-WK-model}}
+        \end{center}
+    \end{figure}
+
+\end{frame}
+
+\begin{frame}{SBERT-WK - Experiments}
+    
+    \begin{figure}
+        \begin{center}
+            \shadowbox{\includegraphics[width=0.97\textwidth]{img/dataset}}
+        \end{center}
+    \end{figure}
+
+    \begin{figure}
+        \begin{center}
+            \shadowbox{\includegraphics[width=0.95\textwidth]{img/sbert-wk-exp}}
+        \end{center}
+    \end{figure}
+
+
+\end{frame}
+
+\begin{frame}{SBERT-WK - Insight}
+
+\end{frame}
+
 \section{Mogrify LSTM}
 
 \begin{frame}{Title}
@@ -52,88 +103,128 @@
 
 \end{frame}
 
-\begin{frame}{Mogrify LSTM - partial Experiments}
+\begin{frame}{Mogrify LSTM - Experiments}
 
+    \begin{figure}
+        \begin{center}
+            \shadowbox{\includegraphics[width=0.95\textwidth]{img/mogrifier-exp}}
+        \end{center}
+    \end{figure}
 \end{frame}
 
 \begin{frame}{Mogrify LSTM - Insight}
 
 \end{frame}
 
-\section{SBERT-WK}
+
+\section{Retrospective Reader for Machine Reading Comprehension}
 
 \begin{frame}{Title}
-    
-\end{frame}
-
-\begin{frame}{SBERT-WK - Motivation}
-    
-
-\end{frame}
-
-\begin{frame}{SBERT-WK - Model}
-
     \begin{figure}
         \begin{center}
-            \shadowbox{\includegraphics[width=0.82\textwidth]{img/SBERT-WK-model}}
+            \shadowbox{\includegraphics[width=0.95\textwidth]{img/Retrospective-Reader-title}}
+        \end{center}
+    \end{figure}
+    
+\end{frame}
+
+\begin{frame}{Retrospective Reader - Motivation}
+    
+    Roberta, XLNet, ALBERT  - strong encoder !
+
+    How about focus on Decoder ?
+    \begin{figure}
+        \begin{center}
+            \shadowbox{\includegraphics[height=0.6\textheight]{img/Retrospective-Reader-motivation}}
         \end{center}
     \end{figure}
 
 \end{frame}
 
-\begin{frame}{SBERT-WK - partial Experiments}
+\begin{frame}{Retrospective Reader - Model}
+
+    \begin{figure}
+        \begin{center}
+            \shadowbox{\includegraphics[height=0.75\textheight]{img/reader-overview}}
+        \end{center}
+    \end{figure}
 
 \end{frame}
 
-\begin{frame}{SBERT-WK - Insight}
+\begin{frame}{Retrospective Reader - Experiments}
+
+    \begin{figure}
+        \begin{center}
+            \shadowbox{\includegraphics[height=0.75\textheight]{img/r2reader-experiment}}
+        \end{center}
+    \end{figure}
 
 \end{frame}
 
-\section{Generalization through Memorization: Nearest Neighbor Language Models}
-
-\begin{frame}{Title}
-    
-\end{frame}
-
-\begin{frame}{knn-LMs - Motivation}
-
-\end{frame}
-
-\begin{frame}{knn-LMs - Model}
-
-\end{frame}
-
-\begin{frame}{knn-LMs - parital Experiments}
-
-\end{frame}
-
-\begin{frame}{knn-LMs - Insight}
+\begin{frame}{Retrospective Reader - Insight}
 
 \end{frame}
 
 \section{Differentiable Reasoning over a Virtual Knowledge Base}
 
-\begin{frame}{Title}
-    
+\begin{frame}{Recap}
+    \begin{figure}
+        \begin{center}
+            \shadowbox{\includegraphics[height=0.75\textheight]{img/Knowledge-base}}
+        \end{center}
+    \end{figure}
 \end{frame}
 
-\begin{frame}{Recap}
-    
-\end{frame}
+
 
 \begin{frame}{Question 1}
+
+    \begin{exampleblock}{What is the meaning of color in Table A ?}
+    \end{exampleblock}
+
+\end{frame}
+
+\begin{frame}{Answer 1}
+
+    \begin{exampleblock}{What is the meaning of color in Table A ?}
+        Ans: 
+        
+        The matrices in the figures are just illustrations and not accurate in any sense. But A is an E x M matrix, and A[i, j] = 1 implies that entity i co-occurs with mention j, as set by the threshold in equation 3. Since a single entity can co-occur with multiple mentions, and a single mention can co-occur with multiple entities, both your interpretations are correct.
+    \end{exampleblock}
 
 \end{frame}
 
 \begin{frame}{Question 2}
 
+    \begin{exampleblock}{what is the initialization of z0 ? (one hot or k-hot vector)}
+    \end{exampleblock}
+
+\end{frame}
+
+\begin{frame}{Answer 2}
+
+    \begin{exampleblock}{what is the initialization of z0 ? (one hot or k-hot vector)}
+        Ans: 
+
+        We find a set of entities from the question and set them in z0. 
+        
+        In the case there is only 1 entity detected, it will be a 1-hot vector, otherwise it will be a k-hot vector.
+    \end{exampleblock}
+
 \end{frame}
 
 \begin{frame}{Question 3}
+    \begin{exampleblock}{z will be a one-hot vector or a k-hot vector after first round ?}
+        
+    \end{exampleblock}
 
 \end{frame}
 
-\begin{frame}{Question 4}
+
+\begin{frame}{Ans 3}
+    \begin{exampleblock}{z will be a one-hot vector or a k-hot vector after first round ?}
+        Ans: Probabilities in each dimension.
+    \end{exampleblock}
 
 \end{frame}
 
