@@ -1,4 +1,4 @@
 \beamer@sectionintoc {1}{Mogrify LSTM}{3}{0}{1}
-\beamer@sectionintoc {2}{Retrospective Reader}{8}{0}{2}
+\beamer@sectionintoc {2}{SBERT-WK}{8}{0}{2}
 \beamer@sectionintoc {3}{Generalization through Memorization: Nearest Neighbor Language Models}{13}{0}{3}
 \beamer@sectionintoc {4}{Differentiable Reasoning over a Virtual Knowledge Base}{18}{0}{4}

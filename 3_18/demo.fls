@@ -377,11 +377,14 @@ INPUT /home/pohan/Downloads/slide-intro/Introduction/3_18/demo.nav
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/gnome/cantarell/Cantarell-Regular-T1-TLF.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/gnome/cantarell/Cantarell-Regular-T1-TLF.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/gnome/cantarell/Cantarell-Bold-T1-TLF.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/gnome/cantarell/Cantarell-Bold-T1-TLF.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/gnome/cantarell/Cantarell-Regular-T1-TLF.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/gnome/cantarell/Cantarell-Regular-T1-TLF.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/gnome/cantarell/Cantarell-Bold-T1-TLF.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/gnome/cantarell/Cantarell-Bold-T1-TLF--base.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/gnome/cantarell/Cantarell-Bold-T1-TLF.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/gnome/cantarell/Cantarell-Bold-T1-TLF--base.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/gnome/cantarell/Cantarell-Regular-T1-TLF.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/gnome/cantarell/Cantarell-Regular-T1-TLF--base.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/gnome/cantarell/Cantarell-Regular-T1-TLF.vf
@@ -390,6 +393,12 @@ INPUT /home/pohan/Downloads/slide-intro/Introduction/3_18/demo.toc
 INPUT /home/pohan/Downloads/slide-intro/Introduction/3_18/demo.toc
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/gnome/cantarell/Cantarell-Regular-T1-TLF.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/gnome/cantarell/Cantarell-Regular-T1-TLF--base.tfm
+INPUT /home/pohan/Downloads/slide-intro/Introduction/3_18/img/mogrifier.png
+INPUT /home/pohan/Downloads/slide-intro/Introduction/3_18/img/mogrifier.png
+INPUT /home/pohan/Downloads/slide-intro/Introduction/3_18/img/mogrifier.png
+INPUT /home/pohan/Downloads/slide-intro/Introduction/3_18/img/mogrifier-model.png
+INPUT /home/pohan/Downloads/slide-intro/Introduction/3_18/img/mogrifier-model.png
+INPUT /home/pohan/Downloads/slide-intro/Introduction/3_18/img/mogrifier-model.png
 OUTPUT /home/pohan/Downloads/slide-intro/Introduction/3_18/demo.nav
 OUTPUT /home/pohan/Downloads/slide-intro/Introduction/3_18/demo.toc
 OUTPUT /home/pohan/Downloads/slide-intro/Introduction/3_18/demo.snm
