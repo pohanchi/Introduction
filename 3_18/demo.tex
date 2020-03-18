@@ -66,10 +66,17 @@
         \end{center}
     \end{figure}
 
-
 \end{frame}
 
+
+
+
 \begin{frame}{SBERT-WK - Insight}
+
+    \begin{enumerate}
+        \item CLS token or averaging token embedding is good at Classification task but are not suitable for semantic textual similarity task.
+        \item Connection between Cosine similarity and NSP task.
+    \end{enumerate}
 
 \end{frame}
 
@@ -98,12 +105,15 @@
     \begin{figure}
         \begin{center}
             \shadowbox{\includegraphics[width=0.95\textwidth]{img/mogrifier-model}}
+            $$ x^i = 2 \sigma(Q^i h_{prev}^{i-1}) \odot x^{i - 2} \quad \text{for odd i in  [1,2,3,4..r]} $$
+            $$ h^i_{prev} = 2 \sigma(R^i x^{i-1}) \odot h_{prev}^{i - 2}  \quad  \text{for even i in  [1,2,3,4..r]} $$
+
         \end{center}
     \end{figure}
 
 \end{frame}
 
-\begin{frame}{Mogrify LSTM - Experiments}
+\begin{frame}{Mogrify LSTM - Experiments - (1)}
 
     \begin{figure}
         \begin{center}
@@ -112,8 +122,22 @@
     \end{figure}
 \end{frame}
 
-\begin{frame}{Mogrify LSTM - Insight}
+\begin{frame}{Mogrify LSTM - Experiments - (2)}
+    
+    \begin{figure}
+        \begin{center}
+            \shadowbox{\includegraphics[width=0.6\textwidth]{img/Metric}}
+        \end{center}
+    \end{figure}
 
+\end{frame}
+
+\begin{frame}{Mogrify LSTM - Insight}
+    \begin{enumerate}
+        \item LSTM v.s Transformer
+        \item another way to constrain LSTM input 
+        \item Hypothesis
+    \end{enumerate}
 \end{frame}
 
 
@@ -161,9 +185,6 @@
 
 \end{frame}
 
-\begin{frame}{Retrospective Reader - Insight}
-
-\end{frame}
 
 \section{Differentiable Reasoning over a Virtual Knowledge Base}
 
