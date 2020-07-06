@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Dense Passage Retrival for Open-Domain Question Answering}{3}{0}{1}
+\beamer@sectionintoc {2}{Retrival-Augmented Generalization for Knowledge-Intensive NLP Task}{3}{0}{2}
+\beamer@sectionintoc {3}{Pretraining with Contrastive Sentence Objectives Improves Discourse Performance of Language Models}{3}{0}{3}
+\beamer@sectionintoc {4}{Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention}{3}{0}{4}
