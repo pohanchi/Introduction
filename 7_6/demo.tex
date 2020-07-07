@@ -22,13 +22,52 @@
 
 \maketoc
 
-\section{Dense Passage Retrival for Open-Domain Question Answering}
-
-\section{Retrival-Augmented Generalization for Knowledge-Intensive NLP Task}
+\section{Contextualized Sparse Representations for
+Real-Time Open-Domain Question Answering}
 
 \section{Pretraining with Contrastive Sentence Objectives Improves Discourse Performance of Language Models}
 
 \section{Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention}
+
+\begin{frame}{Open-Domain QA}
+    \begin{figure}
+        \begin{center}
+            \shadowbox{\includegraphics[width=0.96\textwidth]{img/opendomain}}
+        \end{center}
+    \end{figure}
+    \begin{center}
+        \shadowbox{Accepted by ACL 2020}
+    \end{center}
+\end{frame}
+
+\begin{frame}{Open-Domain QA}
+   Overview
+   \begin{itemize}
+    \item Task definition
+    \item Motivation
+    \item Methodology
+    \item Experiments
+    \item Conclusion
+   \end{itemize}
+\end{frame}
+
+\begin{frame}{Open-domain QA}
+    \begin{figure}
+        \begin{center}
+            Task Definition - DrQA
+            \vfill
+            \shadowbox{\includegraphics[width=0.7\textwidth]{img/environment}}
+            \vfill
+            Given all full wikipedia documents, answer the question.
+        \end{center}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{One solution: BM25 + RC-Model}
+    \begin{figure}
+        
+    \end{figure}
+\end{frame}
 
 \begin{frame}[t]{Sentence Representation}
 
@@ -160,7 +199,6 @@ Overview
     \begin{itemize}
         \item Reduce $O(N^2)$ to $O(N)$ 
         \item Connect Transformer to RNN form
-        \item 4000X faster than origin Transformer
         \item Compare to Reformer (LSH attention)
     \end{itemize}
 
@@ -177,7 +215,76 @@ Overview
 
 \end{frame}
 
+\begin{frame}{Self attention}
 
+    Original
 
+    \begin{figure}
+        \begin{center}
+            \shadowbox{\includegraphics[height=0.6\textheight]{img/self_att}}
+        \end{center}
+    \end{figure}
+    link: https://www.idiap.ch/~katharas/pdfs/linear-transformers-slides.pdf
+\end{frame}
+
+\begin{frame}{Replace by arbitrary similarity score}
+
+    \begin{figure}
+        \begin{center}
+            \shadowbox{\includegraphics[width=0.8\textwidth]{img/sim}}
+        \end{center}
+    \end{figure}
+    link: https://www.idiap.ch/~katharas/pdfs/linear-transformers-slides.pdf
+\end{frame}
+
+\begin{frame}{kernalization - (1)}
+
+    \begin{figure}
+        \begin{center}
+            \shadowbox{\includegraphics[width=0.8\textwidth]{img/sim_kernal}}
+        \end{center}
+    \end{figure}
+    link: https://www.idiap.ch/~katharas/pdfs/linear-transformers-slides.pdf
+\end{frame}
+
+\begin{frame}{kernalization - (2)}
+
+    \begin{figure}
+        \begin{center}
+            \shadowbox{\includegraphics[width=0.8\textwidth]{img/kernal-2}}
+        \end{center}
+    \end{figure}
+    link: https://www.idiap.ch/~katharas/pdfs/linear-transformers-slides.pdf
+\end{frame}
+
+\begin{frame}{kernalization - (3)}
+
+    \begin{figure}
+        \begin{center}
+            \shadowbox{\includegraphics[width=0.8\textwidth]{img/kernal-3}}
+        \end{center}
+    \end{figure}
+    link: https://www.idiap.ch/~katharas/pdfs/linear-transformers-slides.pdf
+\end{frame}
+
+\begin{frame}{RNNs - (1)}
+
+    \begin{figure}
+        \begin{center}
+            \shadowbox{\includegraphics[width=0.8\textwidth]{img/rnn}}
+        \end{center}
+    \end{figure}
+    link: https://www.idiap.ch/~katharas/pdfs/linear-transformers-slides.pdf
+\end{frame}
+
+\begin{frame}{RNNs - (2)}
+
+    \begin{figure}
+        \begin{center}
+            \shadowbox{\includegraphics[width=0.8\textwidth]{img/rnn2}}
+        \end{center}
+    \end{figure}
+    link: https://www.idiap.ch/~katharas/pdfs/linear-transformers-slides.pdf
+\end{frame}
 
 \end{document}
